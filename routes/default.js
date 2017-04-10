@@ -2,7 +2,9 @@ let router  = require('express').Router();
 
 
 router.get('/', (req, res) => {
-    res.render('default', { title: 'LEAN' });
+    res.render('default', {
+        title: 'LEAN'
+    });
 });
 
 
